@@ -22,6 +22,7 @@ window.onload = function generateWord(){
         let loc = Math.floor(Math.random() * words.length-1);
         getElementById("insertWords").innnerText(words[loc])
     }
+    
 }
 
 
